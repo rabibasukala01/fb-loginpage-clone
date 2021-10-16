@@ -1,0 +1,132 @@
+body{
+   
+    /* background-image: url(f1.png); */
+    background-color: #F0F2F5;
+    font-family: Helvetica, Arial  ;
+}
+
+.container{
+    height: 97vh;
+    display: flex;
+    /* background-color: white; */
+    justify-content: center;
+    align-items: center;
+    /* opacity: 50%; */
+}
+
+#left{
+    height: 520px;
+    width:520px;
+    
+    
+    
+    
+}
+#right{
+    height: 520px;
+    width:520px;
+    
+   
+    
+}
+
+
+
+#p1{
+    margin: 125px 0px 0px 29px;
+    font-size: 60px;
+ 
+    letter-spacing: -3px;
+    color: #1877F2;
+}
+#p2{
+    margin: -10px 0px 0px 29px;
+    font-size: 25px;
+    white-space: pre;
+    
+    word-spacing: 2px;    
+}
+
+
+#above{
+    border-radius: 8px;
+    margin: 65px 10px 2px 83px ;
+    height: 350px;
+    width:399px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.box{
+    border:0.1px solid rgb(187, 179, 179);
+    border-radius: 8px;
+    margin: 15px 0px 0px 18px;
+    height: 45px;
+    width: 350px;
+    padding-left: 10px;
+    font-size: 18px;
+    
+    
+
+}
+.box:focus{
+     border-color: #1877F2;
+     outline: none;
+}
+
+#submit{
+    border:none;
+    background-color: #1877F2;
+    margin-top: 15px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    height: 50px;
+    width: 365px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#submit:hover{
+    background-color: #166FE5;
+}
+#forget{
+    
+    color: #18A4F7;
+    margin: 200px 0px 0px 142px;
+    text-decoration: none;
+}
+#forget:hover{
+    text-decoration: underline;
+}
+#line{
+    margin: -122px 50px 5px 105px;
+    opacity: 55%;
+    width: 350px;
+    
+    
+}
+
+#below{
+    font-size: 14px;
+    margin-top: 52px;
+    margin-left:130px ;
+    color: black;
+    word-spacing: 0.38px;
+   
+}
+
+#create{
+    border:none;
+    border-radius: 5px;
+    margin:22px 0px 0px 184px;
+    background-color:#42B72A;
+    color: white;
+    font-size: 16px;
+        height: 45px;
+        width: 197px;
+}
+#create:hover{
+    background-color: #36A420;
+}
